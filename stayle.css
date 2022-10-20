@@ -1,0 +1,252 @@
+/* style Keseluruhan */
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'courier new', Courier, monospace;
+    color: #e6a313
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px;
+    background-color: white;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom:50px;
+}
+.PARALLAX {
+    background-image: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url(234p.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom p {
+    color: #ffffff;
+}
+
+.kolom .deskripsi{
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #ffffff;
+}
+
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tombol-biru {
+    background: #000000;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tombol-biru:hover {
+    background: #31E1F7;
+    text-decoration: none;
+}
+
+
+a.tombol-merah {
+    background: #fb25fb;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombol-merah:hover {
+    background: #31E1F7;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+.kolom1 h2 {
+    color: #000000;
+}
+
+
+
+.gambar1 {
+    width: 40%;
+}
+
+.gambar2 {
+    width: 30%;
+}
+
+/* style mahasiswa */
+.parallax_2 {
+    background-image: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url(60p.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.mhs-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-mhs{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.card-mhs img{
+    width: 80%;
+}
+
+.card-mhs p{
+    font-family: 'Arial';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: %;  */
+}
+
+.gambar img {
+    width: 100%;
+    /* border: 5px;
+    margin-bottom: 5px; */
+}
+
+.gambar7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar7 img {
+    width: 80%;
+}
+
+.p1 {
+    padding-left: 3em;
+}
+
+.kolom h2{
+    text-align: center;
+}
+
+.kolom1 h2{
+    text-align: center;
+}
+
+.kolom p{
+    font-size: 25px;
+}
+.kolom1 p {
+    font-size: 15px;
+}
+.padding {
+    margin-right: 50px;
+}
+.kolom1 img {
+    margin-left: 150px;
+}
+.gambar9 img {
+    border-radius: 50%;
+    margin-top: 170px;
+}
+.tengah {
+    color: #ffffff;
+}
+footer p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.image2 {
+    border-radius: 50% ;
+}
